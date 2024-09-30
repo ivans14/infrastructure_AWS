@@ -1,0 +1,169 @@
+{
+  "vpc-provider:account=241204909471:filter.vpc-id=vpc-034188d8932a9eded:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-034188d8932a9eded",
+    "vpcCidrBlock": "10.79.220.0/24",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Isolated",
+        "type": "Isolated",
+        "subnets": [
+          {
+            "subnetId": "subnet-0adc56301657068d1",
+            "cidr": "10.79.220.0/26",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-010b6384e3cdda33b"
+          },
+          {
+            "subnetId": "subnet-0b4d668b0c1cbc40b",
+            "cidr": "10.79.220.64/26",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-04902f18e07e48a34"
+          },
+          {
+            "subnetId": "subnet-00f890d77148359e9",
+            "cidr": "10.79.220.128/26",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-083d44c1f6162d9cc"
+          },
+          {
+            "subnetId": "subnet-0d1713bafc0be70eb",
+            "cidr": "10.79.220.192/26",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0b761fe797d0d8481"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=241204909471:domainName=rtfd-dev.corp.aws.novonordisk.com:privateZone=true:region=eu-central-1:vpcId=vpc-034188d8932a9eded": {
+    "Id": "/hostedzone/Z063642216R1P8ZXAPSSN",
+    "Name": "rtfd-dev.corp.aws.novonordisk.com."
+  },
+  "vpc-provider:account=329004931743:filter.vpc-id=vpc-0ce1c8e5924f4f0df:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0ce1c8e5924f4f0df",
+    "vpcCidrBlock": "10.112.170.0/23",
+    "ownerAccountId": "329004931743",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Isolated",
+        "type": "Isolated",
+        "subnets": [
+          {
+            "subnetId": "subnet-0be37d2e3b0ca5008",
+            "cidr": "10.112.170.128/25",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0e3ea26ac07e2a717"
+          },
+          {
+            "subnetId": "subnet-0310e47b7509eef61",
+            "cidr": "10.112.170.0/25",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0f2d39ffbd78d3bba"
+          },
+          {
+            "subnetId": "subnet-039a01b139b686389",
+            "cidr": "10.112.171.0/25",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-056739a4cb1185893"
+          },
+          {
+            "subnetId": "subnet-0bc10091e5bd03e00",
+            "cidr": "10.112.171.128/25",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0b7833891df9884e8"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=329004931743:domainName=dlt-poc.corp.aws.novonordisk.com:privateZone=true:region=eu-central-1:vpcId=vpc-0ce1c8e5924f4f0df": {
+    "Id": "/hostedzone/Z04550531HNKY0KSRIPGW",
+    "Name": "dlt-poc.corp.aws.novonordisk.com."
+  },
+  "vpc-provider:account=124634650910:filter.vpc-id=vpc-0b8540c62a0b5cb08:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-0b8540c62a0b5cb08",
+    "vpcCidrBlock": "10.108.122.0/23",
+    "ownerAccountId": "124634650910",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-07ae8f470e0fd5dd5",
+            "cidr": "10.108.122.128/26",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-088565acb35220508"
+          },
+          {
+            "subnetId": "subnet-027fec49070a27c76",
+            "cidr": "10.108.122.0/26",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0a7bd50d2c1299787"
+          },
+          {
+            "subnetId": "subnet-07caeb9b9ce5a04c1",
+            "cidr": "10.108.122.64/26",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-02affafb4867f4466"
+          },
+          {
+            "subnetId": "subnet-06fd94837a8f2b51d",
+            "cidr": "10.108.122.192/26",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0abc19ab44f896c84"
+          },
+          {
+            "subnetId": "subnet-08c1379df151a1136",
+            "cidr": "10.108.123.0/26",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0095cf3897fd26f8e"
+          },
+          {
+            "subnetId": "subnet-0a7d58a603b6131f5",
+            "cidr": "10.108.123.64/26",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-02cb8368bd0d6a84e"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=124634650910:domainName=oee-intel-dev.corp.aws.novonordisk.com:privateZone=true:region=eu-central-1:vpcId=vpc-0b8540c62a0b5cb08": {
+    "Id": "/hostedzone/Z0767469EBDN7MJP7NZE",
+    "Name": "oee-intel-dev.corp.aws.novonordisk.com."
+  },
+  "vpc-provider:account=581512767554:filter.vpc-id=vpc-06320eb78b05cc514:region=eu-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-06320eb78b05cc514",
+    "vpcCidrBlock": "10.108.5.0/24",
+    "ownerAccountId": "581512767554",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Private",
+        "type": "Private",
+        "subnets": [
+          {
+            "subnetId": "subnet-06ea6349bbe3b8706",
+            "cidr": "10.108.5.0/25",
+            "availabilityZone": "eu-central-1a",
+            "routeTableId": "rtb-0552bb974d42cad4c"
+          },
+          {
+            "subnetId": "subnet-097f0d182d6ead316",
+            "cidr": "10.108.5.128/25",
+            "availabilityZone": "eu-central-1b",
+            "routeTableId": "rtb-0572379734239ed3c"
+          }
+        ]
+      }
+    ]
+  },
+  "hosted-zone:account=581512767554:domainName=5714mdev-poc.corp.aws.novonordisk.com:privateZone=true:region=eu-central-1:vpcId=vpc-06320eb78b05cc514": {
+    "Id": "/hostedzone/Z07317373NQZN3WF77Z0P",
+    "Name": "5714mdev-poc.corp.aws.novonordisk.com."
+  }
+}
